@@ -83,8 +83,39 @@ body {
     font-size: 0.7em;
 }
 
-
 .form label input:valid+span {
-    color: rgba(255, 255, 255,0.15);
+    color: rgba(255, 255, 255,0.3);
     
+}
+
+.submit {
+    border: none;
+    padding: 10px;
+    color: #fff;
+    border-radius: 10px;
+    font-size: 1em;
+    background: rgba(0, 0, 0,0.15);
+    outline: none;
+    cursor: pointer;
+    transition: 0.3s ease;
+    transform: 0.3s ease;
+}
+
+.submit:hover {
+    background: rgba(0,0,0, 0.25);
+}
+
+.signin {
+    color: #fff;
+    text-align: center;
+    font-size: 14px;
+}
+
+.signin a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.signin a:hover {
+    text-decoration: underline;
 }
