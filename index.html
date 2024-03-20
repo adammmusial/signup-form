@@ -9,30 +9,29 @@
 <body>
     <form class="form">
         <p class="title">Register</p>
-            <div>
-                <label for="name">First name:</label>
-                <input type="text" name="name" id="name" required>
+            <div class = "form-group">
+                <label for="name">
+                    <input type="text" name="name" id="name" required>
+                    <span>First name</span>
+                </label>
+                <label for="surname">
+                    <input type="text" name="surname" id="surname" required>
+                    <span>Surname</span>
+                </label>
             </div>
-            <div>
-                <label for="surname">Surname</label>
-                <input type="text" name="surname" id="surname" required>
-            </div>
-            <div>
-                <label for="email">Email</label>
+            <label for="email">
                 <input type="email" name="email" id="email" required>   
-            </div>
-            <div>
-                <label for="phone">Phone</label>
-                <input type="phone" name="phone" id="phone" required>
-            </div>
-            <div>
-                <label for="password">Password</label>
-                <input type="password" name="password" id="password" required>
-            </div>
-            <div>
-                <label for="password">Password</label>
-                <input type="password" name="password" id="password" required>
-            </div>
+                <span> Email </span>
+            </label>
+            <label for="password">
+                <input type="password" name="password" id="password" required>   
+                <span> Password </span>
+            </label>
+            <label for="confirm-password">
+                <input type="password" name="confirm-password" id="confirm-password" required>   
+                <span> Confirm Password </span>
+            </label>
+
             <button class="submit">Submit</button>
             <p class="signin">
                 Already have an account?
