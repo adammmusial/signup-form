@@ -61,4 +61,30 @@ body {
     background: rgba(255, 255, 255,0.15)
 }
 
+.form label input+span{
+    position: absolute;
+    left: 10px;
+    top: 15px;
+    color: #fff;
+    font-size: 0.9em;
+    cursor: text;
+    transition: 0.3s ease;
+}
 
+
+.form label input:placeholder-shown+span{
+    top: 15px;
+    font-size: 0.9em;
+}
+
+.form label input:focus+span,
+.form label input:valid+span {
+    top: 30px;
+    font-size: 0.7em;
+}
+
+
+.form label input:valid+span {
+    color: rgba(255, 255, 255,0.15);
+    
+}
